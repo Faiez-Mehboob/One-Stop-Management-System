@@ -5,24 +5,24 @@ This is a C++ project developed for the **Data Structures** course. The **One St
 
 ## 🎯 Features
 
-- 🎟️ **Ticket Management**
+- **Ticket Management**
   - Add/remove tickets with unique IDs
   - Track ticket status (open, assigned, closed)
   - Priority-based sorting (using bubble, selection, insertion, merge, or quick sort)
   - Binary & interpolation search for tickets
 
-- 🧑‍💼 **Agent Management**
+- **Agent Management**
   - Add support agents
   - Assign tickets in round-robin based on load
   - Maximum 5 tickets per agent
   - Ticket resolution with logging
 
-- 📊 **Reports & Analytics**
+- **Reports & Analytics**
   - View all open tickets
   - View resolution log (LIFO using stack)
   - View agents and their assigned tickets
 
-- ⚙️ **Configuration Support**
+- **Configuration Support**
   - Reads default sort/search options from `config.txt`
   - Dynamically selects sorting based on ticket size threshold
 
